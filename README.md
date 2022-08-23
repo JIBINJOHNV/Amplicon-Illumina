@@ -10,7 +10,9 @@
 
 
 #Step_2
-python3 IlluminaAmpiconGATKAnnovarDemux.py -Library Amplicon_Library_Details.xlsx -Coverage 20X.csv -Folder Annovar -EndofFile hg38_multiannoDesiredColumns.tsv                        ##20X.csv is present in the mosedepth folder
+python3 IlluminaAmpiconGATKAnnovarDemux.py -Library Amplicon_Library_Details.xlsx -Coverage Target_Region_CveredWith_Atleast20X.csv -Folder Annovar -EndofFile hg38_multiannoDesiredColumns.tsv                        
+
+          ##Target_Region_CveredWith_Atleast20X.csv is present in the mosedepth folder, name may be 20X.csv 
 
 
 
