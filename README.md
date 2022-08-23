@@ -10,10 +10,13 @@
 
 
 #Step_2
-python3 2_IlluminaAmpiconGATKAnnovarDemux.py -Library Amplicon_Library_Details.xlsx -Coverage 20X.csv -Folder Annovar -EndofFile hg38_multiannoDesiredColumns.tsv 
+python3 IlluminaAmpiconGATKAnnovarDemux.py -Library Amplicon_Library_Details.xlsx -Coverage 20X.csv -Folder Annovar -EndofFile hg38_multiannoDesiredColumns.tsv                        ##20X.csv is present in the mosedepth folder
+
+
+
 
 #Sep_3
 
-python3 3_Amplicon_sequencing_demultiplex_Variant_SampleSummary.py 
+python3 Amplicon_sequencing_demultiplex_Variant_SampleSummary.py 
 
 
