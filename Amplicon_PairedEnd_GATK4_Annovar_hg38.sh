@@ -297,7 +297,7 @@ multiqc -o MultiQC/CompleteQC/ QC
 
 
 ##Calulate amplicon specific coverage
-python ${MosedepthTargetComparison} -Mfolder QC/AlignmentQC/Mosdepth/Exome/
+python ${MosedepthTargetComparison} -Mfolder QC/AlignmentQC/Mosdepth/Exome/ --Outputfolder QC/AlignmentQC/Mosdepth/Exome/
 
 ##---------------------------------------Variant calling-----------------------------------------------------------------------"
 
