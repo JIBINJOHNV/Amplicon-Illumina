@@ -11,11 +11,7 @@
 
 ## Step_2
 
-python3 Scripts/2_IlluminaAmpiconGATKAnnovarDemux.py \
-                    -Library TestData/Amplicon_Library_Details1.xlsx \
-                    -Coverage TestData/20X.csv \
-                    -Folder TestData/Annovar/  \
-                    -EndofFile hg38_multiannoDesiredColumns.tsv 
+python3 Scripts/2_IlluminaAmpiconGATKAnnovarDemux.py -Library TestData/Amplicon_Library_Details1.xlsx -Coverage TestData/20X.csv -Folder TestData/Annovar/ -EndofFile hg38_multiannoDesiredColumns.tsv 
 
 
           ##Column names of  Amplicon_Library_Details1.xlsx and 20X.csv files should not change
